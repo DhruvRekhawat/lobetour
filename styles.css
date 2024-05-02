@@ -1,0 +1,58 @@
+:root {
+    --primary: #04DDB2;
+  }
+
+ul{
+    list-style: none;
+    gap: 1rem;
+}
+main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+.download-btn{
+    background: var(--primary);
+    height: 48px;
+    width: 129px;
+    border-radius: 800px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;   
+   transition: all ease-in .2s;
+    
+}
+
+.download-btn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  
+}
+
+.green{
+    color: var(--primary);
+}
+.hero{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.05;
+ 
+}
+.hero-p{
+    font-size: 26px;
+    line-height: 1.45;
+    font-weight: 400;
+    width: 600px;
+    text-wrap: balance;
+    text-align: center;
+   
+}
